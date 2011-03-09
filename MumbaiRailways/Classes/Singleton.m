@@ -8,6 +8,7 @@
 
 #import "Singleton.h"
 #import "StationsViewController.h"
+#include "FinalDisplayViewController.h"
 
 @implementation Singleton
 
@@ -58,30 +59,33 @@ static Singleton *dataManager;
 -(NSArray *)dataFromDatabase:(NSString *)stationName
 {
 	NSLog(@"method called");
-	
+	NSMutableArray *speeds = [[NSMutableArray alloc]init];
+	NSMutableArray *time = [[NSMutableArray alloc]init];
+	NSMutableArray *destination = [[NSMutableArray alloc]init];
 	NSMutableArray *retval = [[[NSMutableArray alloc] init] autorelease];	
-	NSString *query=[NSString stringWithFormat:@"SELECT Train.TrainNo, TrainSpeed, Destination, TrainAndStop.Time FROM Train JOIN TrainAndStop ON Train.TrainNo=TrainAndStop.TrainNo AND TrainAndStop.StopNo = (SELECT Stop.StopNo FROM Stop WHERE Stop.StopName=\"%@\") AND Time Between 7 AND 8",stationName];
+	NSString *query=[NSString stringWithFormat:@"SELECT Train.TrainNo, TrainSpeed, Destination, TrainAndStop.Time FROM Train JOIN TrainAndStop ON Train.TrainNo=TrainAndStop.TrainNo AND TrainAndStop.StopNo = (SELECT Stop.StopNo FROM Stop WHERE Stop.StopName=\"%@\") ",stationName];
 	sqlite3_stmt *compiledStatement;
     if (sqlite3_prepare_v2(database, [query UTF8String], -1, &compiledStatement, nil) == SQLITE_OK) {
 		
 		while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
 			int TrainNo=sqlite3_column_int(compiledStatement, 0);
 			NSLog(@"train No's are:%d",TrainNo);
-	        char *TrainSpeed=(char *)sqlite3_column_text(compiledStatement, 1);	
+            char *TrainSpeed=(char *)sqlite3_column_text(compiledStatement, 1);	
 		    NSString *TS=[[NSString alloc] initWithUTF8String:TrainSpeed];
-			NSLog(@"%@",TS);
+		    [speeds addObject:TS];
 	        char *Destination=(char *)sqlite3_column_text(compiledStatement, 2);	
-			NSString *Desti=[[NSString alloc] initWithUTF8String:Destination];
-			NSLog(@"%@",Desti);
+			NSString *DestinationStr=[[NSString alloc] initWithUTF8String:Destination];
+			[destination addObject:DestinationStr];
 			double Time=sqlite3_column_double(compiledStatement, 3);
-			NSLog(@"time is %.2f",Time);
-			[retval addObject:Desti];
+			[time addObject:[NSNumber numberWithFloat:Time]];
 		}
-        sqlite3_finalize(compiledStatement);
     }
-    return retval;
-			
+	FinalDisplayViewController *finalDisplayView = [[FinalDisplayViewController alloc]initWithTrainSpeed:speeds TrainDestination:destination TrainTime:time];
+	[retval addObject:finalDisplayView];
+	[finalDisplayView release];
+	sqlite3_finalize(compiledStatement);
 	
+    return retval;
 }
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.

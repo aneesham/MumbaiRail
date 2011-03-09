@@ -8,6 +8,7 @@
 
 #import "StationsViewController.h"
 #import "Singleton.h"
+#include "FinalDisplayViewController.h"
 
 @implementation StationsViewController
 @synthesize stationName;
@@ -44,6 +45,9 @@
   stationName=[[[Singleton sharedInstance]trainStops] objectAtIndex:indexPath.row];
 	NSLog(@"Station selected : %@",stationName);
 	NSLog(@"data from database is %@",[[Singleton sharedInstance]dataFromDatabase:stationName]);
+	FinalDisplayViewController *finalDisplay = [[FinalDisplayViewController alloc]initWithNibName:@"FinalDisplayView" bundle:nil];
+	[self.navigationController pushViewController:finalDisplay animated:YES];
+	[finalDisplay release];
 	
 }
 
