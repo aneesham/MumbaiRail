@@ -67,7 +67,7 @@ static Singleton *dataManager;
 		
 		while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
 			int TrainNo=sqlite3_column_int(compiledStatement, 0);
-			NSLog(@"train No is%d",TrainNo);
+			NSLog(@"train No's are:%d",TrainNo);
 	       // char *TrainSpeed=(char *)sqlite3_column_text(compiledStatement, 1);	
 			//NSString *TS=[[NSString alloc] initWithUTF8String:TrainSpeed];
 			//NSLog(@"%@",TS);
