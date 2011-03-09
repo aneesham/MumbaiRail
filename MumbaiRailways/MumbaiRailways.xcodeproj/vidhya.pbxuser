@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	1A7F9779132603F200BF45AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A8317761324A0BC00F0822F /* StationsViewController.m */;
+		name = "StationsViewController.m: 46";
+		rLen = 0;
+		rLoc = 1262;
+		rType = 0;
+		vrLen = 1382;
+		vrLoc = 189;
+	};
+	1A7F977A132603F200BF45AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MumbaiRailwaysAppDelegate.m */;
+		name = "MumbaiRailwaysAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 593;
+		rType = 0;
+		vrLen = 1867;
+		vrLoc = 0;
+	};
+	1A7F977B132603F200BF45AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A83175B13249B4C00F0822F /* FirstViewController.m */;
+		name = "FirstViewController.m: 15";
+		rLen = 0;
+		rLoc = 286;
+		rType = 0;
+		vrLen = 1281;
+		vrLoc = 0;
+	};
+	1A7F977C132603F200BF45AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A8317751324A0BC00F0822F /* StationsViewController.h */;
+		name = "StationsViewController.h: 17";
+		rLen = 0;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 273;
+		vrLoc = 0;
+	};
+	1A7F977D132603F200BF45AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1AFB317C1324B45000E224F2 /* Singleton.h */;
+		name = "Singleton.h: 15";
+		rLen = 0;
+		rLoc = 248;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 0;
+	};
+	1A7F977E132603F200BF45AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1AFB317D1324B45000E224F2 /* Singleton.m */;
+		name = "Singleton.m: 38";
+		rLen = 0;
+		rLoc = 806;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 653;
+	};
+	1A7F977F132603F200BF45AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1AFB317D1324B45000E224F2 /* Singleton.m */;
+		name = "Singleton.m: 52";
+		rLen = 0;
+		rLoc = 1409;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 653;
+	};
+	1A83174D13249B1500F0822F /* MumbaiRailways */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MumbaiRailways;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1A83175813249B3300F0822F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1A83175913249B3300F0822F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1A83175A13249B4C00F0822F /* FirstViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 626}}";
+			sepNavSelRange = "{267, 0}";
+			sepNavVisRange = "{0, 267}";
+		};
+	};
+	1A83175B13249B4C00F0822F /* FirstViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 676}}";
+			sepNavSelRange = "{286, 0}";
+			sepNavVisRange = "{0, 1281}";
+		};
+	};
+	1A83175D13249B8200F0822F /* SecondViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 626}}";
+			sepNavSelRange = "{229, 0}";
+			sepNavVisRange = "{0, 277}";
+		};
+	};
+	1A83175E13249B8200F0822F /* SecondViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 626}}";
+			sepNavSelRange = "{212, 0}";
+			sepNavVisRange = "{0, 1057}";
+		};
+	};
+	1A8317751324A0BC00F0822F /* StationsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 621}}";
+			sepNavSelRange = "{267, 0}";
+			sepNavVisRange = "{0, 273}";
+		};
+	};
+	1A8317761324A0BC00F0822F /* StationsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 819}}";
+			sepNavSelRange = "{1262, 0}";
+			sepNavVisRange = "{189, 1382}";
+		};
+	};
+	1A97E23B1324EDD3008A063F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MumbaiRailwaysAppDelegate.h */;
+		name = "MumbaiRailwaysAppDelegate.h: 17";
+		rLen = 0;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	1A97E2761324F1C6008A063F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A83175A13249B4C00F0822F /* FirstViewController.h */;
+		name = "FirstViewController.h: 17";
+		rLen = 0;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 267;
+		vrLoc = 0;
+	};
+	1A97E2791324F1C6008A063F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A83175D13249B8200F0822F /* SecondViewController.h */;
+		name = "SecondViewController.h: 14";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 277;
+		vrLoc = 0;
+	};
+	1A97E27A1324F1C6008A063F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A83175E13249B8200F0822F /* SecondViewController.m */;
+		name = "SecondViewController.m: 10";
+		rLen = 0;
+		rLoc = 212;
+		rType = 0;
+		vrLen = 1057;
+		vrLoc = 0;
+	};
+	1AFB317C1324B45000E224F2 /* Singleton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 621}}";
+			sepNavSelRange = "{248, 0}";
+			sepNavVisRange = "{0, 307}";
+		};
+	};
+	1AFB317D1324B45000E224F2 /* Singleton.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 1170}}";
+			sepNavSelRange = "{1409, 0}";
+			sepNavVisRange = "{653, 1406}";
+			sepNavWindowFrame = "{{15, 465}, {750, 558}}";
+		};
+	};
+	1D3623240D0F684500981E51 /* MumbaiRailwaysAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 603}}";
+			sepNavSelRange = "{451, 0}";
+			sepNavVisRange = "{0, 459}";
+		};
+	};
+	1D3623250D0F684500981E51 /* MumbaiRailwaysAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1014}}";
+			sepNavSelRange = "{593, 0}";
+			sepNavVisRange = "{0, 1867}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MumbaiRailways */ = {
+		activeExec = 0;
+		executables = (
+			1A83174D13249B1500F0822F /* MumbaiRailways */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1A83174D13249B1500F0822F /* MumbaiRailways */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MumbaiRailways */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* MumbaiRailways */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 1A83175913249B3300F0822F /* Code sense */;
+		executables = (
+			1A83174D13249B1500F0822F /* MumbaiRailways */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1233,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321268177;
+			PBXWorkspaceStateSaveDate = 321268177;
+		};
+		perUserProjectItems = {
+			1A7F9779132603F200BF45AA = 1A7F9779132603F200BF45AA /* PBXTextBookmark */;
+			1A7F977A132603F200BF45AA = 1A7F977A132603F200BF45AA /* PBXTextBookmark */;
+			1A7F977B132603F200BF45AA = 1A7F977B132603F200BF45AA /* PBXTextBookmark */;
+			1A7F977C132603F200BF45AA = 1A7F977C132603F200BF45AA /* PBXTextBookmark */;
+			1A7F977D132603F200BF45AA = 1A7F977D132603F200BF45AA /* PBXTextBookmark */;
+			1A7F977E132603F200BF45AA = 1A7F977E132603F200BF45AA /* PBXTextBookmark */;
+			1A7F977F132603F200BF45AA = 1A7F977F132603F200BF45AA /* PBXTextBookmark */;
+			1A97E23B1324EDD3008A063F = 1A97E23B1324EDD3008A063F /* PBXTextBookmark */;
+			1A97E2761324F1C6008A063F = 1A97E2761324F1C6008A063F /* PBXTextBookmark */;
+			1A97E2791324F1C6008A063F = 1A97E2791324F1C6008A063F /* PBXTextBookmark */;
+			1A97E27A1324F1C6008A063F = 1A97E27A1324F1C6008A063F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1A83175813249B3300F0822F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

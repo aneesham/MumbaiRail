@@ -1,0 +1,308 @@
+TMumbaiRailways
+v7
+r0
+t321167289.983149
+cCheck dependencies
+cProcessInfoPlistFile /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/Info.plist MumbaiRailways-Info.plist
+cCompileXIB /Users/vidhya/Documents/MumbaiRailways/MainWindow.xib
+cCompileXIB /Users/vidhya/Documents/MumbaiRailways/FirstView.xib
+cCompileXIB /Users/vidhya/Documents/MumbaiRailways/SecondView.xib
+cProcessPCH /var/folders/Rh/RhayRSOGHMG-PT9Z+wMw0++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MumbaiRailways_Prefix-ambmjtcbiktgzeafvefnfkinmxxe/MumbaiRailways_Prefix.pch.gch MumbaiRailways_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/main.o /Users/vidhya/Documents/MumbaiRailways/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/MumbaiRailwaysAppDelegate.o /Users/vidhya/Documents/MumbaiRailways/Classes/MumbaiRailwaysAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/FirstViewController.o /Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/SecondViewController.o /Users/vidhya/Documents/MumbaiRailways/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MumbaiRailways normal i386
+cGenerateDSYMFile /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app.dSYM /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MumbaiRailways
+cTouch /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004D1839430000000000000110
+t1293433155
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.h
+c000000004D746745000000000000010B
+t1299474245
+s267
+i<UIKit/UIKit.h>
+
+N/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m
+c000000004D74665A0000000000000531
+t1299474010
+s1329
+i"FirstViewController.h"
+i"SecondViewController.h"
+
+N/Users/vidhya/Documents/MumbaiRailways/Classes/MumbaiRailwaysAppDelegate.h
+c000000004D74648400000000000001CB
+t1299473540
+s459
+i<UIKit/UIKit.h>
+
+N/Users/vidhya/Documents/MumbaiRailways/Classes/MumbaiRailwaysAppDelegate.m
+c000000004D7464B40000000000000A39
+t1299473588
+s2617
+i"MumbaiRailwaysAppDelegate.h"
+
+N/Users/vidhya/Documents/MumbaiRailways/Classes/SecondViewController.h
+c000000004D74640200000000000000EC
+t1299473410
+s236
+i<UIKit/UIKit.h>
+
+N/Users/vidhya/Documents/MumbaiRailways/Classes/SecondViewController.m
+c000000004D746402000000000000062A
+t1299473410
+s1578
+i"SecondViewController.h"
+
+N/Users/vidhya/Documents/MumbaiRailways/FirstView.xib
+c000000004D74676D0000000000005497
+t1299474285
+s21655
+
+N/Users/vidhya/Documents/MumbaiRailways/MainWindow.xib
+c000000004D7464E50000000000006044
+t1299473637
+s24644
+
+N/Users/vidhya/Documents/MumbaiRailways/MumbaiRailways_Prefix.pch
+c000000004D74639500000000000000C5
+t1299473301
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/vidhya/Documents/MumbaiRailways/SecondView.xib
+c000000004D7467F20000000000004B02
+t1299474418
+s19202
+
+N/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app
+t1299474489
+s272
+
+N/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app.dSYM
+t1299474489
+s102
+
+N/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/FirstView.nib
+t1299474487
+s1697
+
+N/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/Info.plist
+t1299474484
+s619
+
+N/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MainWindow.nib
+t1299474487
+s1565
+
+N/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MumbaiRailways
+t1299474489
+s18548
+
+N/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/PkgInfo
+t1299474484
+s8
+
+N/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/SecondView.nib
+t1299474488
+s1487
+
+N/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/FirstViewController.o
+t1299474489
+s40040
+
+N/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/MumbaiRailways.LinkFileList
+c000000004D7468340000000000000254
+t1299474484
+s596
+
+N/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/MumbaiRailwaysAppDelegate.o
+t1299474489
+s52892
+
+N/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/SecondViewController.o
+t1299474489
+s37680
+
+N/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/main.o
+t1299474489
+s6304
+
+N/Users/vidhya/Documents/MumbaiRailways/main.m
+c000000004D7463950000000000000169
+t1299473301
+s361
+i<UIKit/UIKit.h>
+
+N/var/folders/Rh/RhayRSOGHMG-PT9Z+wMw0++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MumbaiRailways_Prefix-ambmjtcbiktgzeafvefnfkinmxxe/MumbaiRailways_Prefix.pch.gch
+t1299474489
+s15453392
+
+NMumbaiRailways-Info.plist
+c000000004D746395000000000000038D
+t1299473301
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321167284#321167284#0(0"0(0#1#0"8618486592#0"0#
+
+CCompileC build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/FirstViewController.o /Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321167289.667920
+e321167289.745031
+r1
+xCompileC
+xbuild/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/FirstViewController.o
+x/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m: In function '-[FirstViewController moveToNext:]':
+o/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m:16: warning: conflicting types for '-(id)moveToNext:(id)sender'
+o/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.h:15: warning: previous declaration of '-(void)moveToNext:(id)sender'
+o/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m:20: warning: control reaches end of non-void function
+lSLF07#2@76"Compile /Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m321167289#321167289#0(513"/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m: In function '-[FirstViewController moveToNext:]':/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m:16: warning: conflicting types for '-(id)moveToNext:(id)sender'/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.h:15: warning: previous declaration of '-(void)moveToNext:(id)sender'/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m:20: warning: control reaches end of non-void function3(22@50"Conflicting types for '-(id)moveToNext:(id)sender'321167289#120#133#0(6@68"/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m321166810#16#0#16#0#25"conflicting types for '*'0(22@54"Previous declaration of '-(void)moveToNext:(id)sender'321167289#253#137#0(6@68"/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.h321167045#15#0#15#0#0"0(22@40"Control reaches end of non-void function321167289#390#123#0(6@68"/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m321166810#20#0#20#0#40"control reaches end of non-void function0(0#0#68"/Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m8617470496#2092"    cd /Users/vidhya/Documents/MumbaiRailways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-generated-files.hmap -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-own-target-headers.hmap -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-all-target-headers.hmap -iquote /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-project-headers.hmap -F/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator -I/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/include -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/DerivedSources/i386 -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/DerivedSources -include /var/folders/Rh/RhayRSOGHMG-PT9Z+wMw0++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MumbaiRailways_Prefix-ambmjtcbiktgzeafvefnfkinmxxe/MumbaiRailways_Prefix.pch -c /Users/vidhya/Documents/MumbaiRailways/Classes/FirstViewController.m -o /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/MumbaiRailwaysAppDelegate.o /Users/vidhya/Documents/MumbaiRailways/Classes/MumbaiRailwaysAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321167289.619893
+e321167289.738419
+r1
+xCompileC
+xbuild/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/MumbaiRailwaysAppDelegate.o
+x/Users/vidhya/Documents/MumbaiRailways/Classes/MumbaiRailwaysAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/vidhya/Documents/MumbaiRailways/Classes/MumbaiRailwaysAppDelegate.m321167289#321167289#0(0"0(0#0#74"/Users/vidhya/Documents/MumbaiRailways/Classes/MumbaiRailwaysAppDelegate.m8618124864#2104"    cd /Users/vidhya/Documents/MumbaiRailways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-generated-files.hmap -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-own-target-headers.hmap -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-all-target-headers.hmap -iquote /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-project-headers.hmap -F/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator -I/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/include -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/DerivedSources/i386 -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/DerivedSources -include /var/folders/Rh/RhayRSOGHMG-PT9Z+wMw0++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MumbaiRailways_Prefix-ambmjtcbiktgzeafvefnfkinmxxe/MumbaiRailways_Prefix.pch -c /Users/vidhya/Documents/MumbaiRailways/Classes/MumbaiRailwaysAppDelegate.m -o /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/MumbaiRailwaysAppDelegate.o0#
+
+CCompileC build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/SecondViewController.o /Users/vidhya/Documents/MumbaiRailways/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321167289.738598
+e321167289.798592
+r1
+xCompileC
+xbuild/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/SecondViewController.o
+x/Users/vidhya/Documents/MumbaiRailways/Classes/SecondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/vidhya/Documents/MumbaiRailways/Classes/SecondViewController.m321167289#321167289#0(0"0(0#0#69"/Users/vidhya/Documents/MumbaiRailways/Classes/SecondViewController.m8618834528#2094"    cd /Users/vidhya/Documents/MumbaiRailways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-generated-files.hmap -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-own-target-headers.hmap -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-all-target-headers.hmap -iquote /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-project-headers.hmap -F/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator -I/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/include -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/DerivedSources/i386 -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/DerivedSources -include /var/folders/Rh/RhayRSOGHMG-PT9Z+wMw0++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MumbaiRailways_Prefix-ambmjtcbiktgzeafvefnfkinmxxe/MumbaiRailways_Prefix.pch -c /Users/vidhya/Documents/MumbaiRailways/Classes/SecondViewController.m -o /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/SecondViewController.o0#
+
+CCompileC build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/main.o /Users/vidhya/Documents/MumbaiRailways/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321167289.618612
+e321167289.667824
+r1
+xCompileC
+xbuild/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/main.o
+x/Users/vidhya/Documents/MumbaiRailways/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/vidhya/Documents/MumbaiRailways/main.m321167289#321167289#0(0"0(0#0#45"/Users/vidhya/Documents/MumbaiRailways/main.m8618761920#2054"    cd /Users/vidhya/Documents/MumbaiRailways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-generated-files.hmap -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-own-target-headers.hmap -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-all-target-headers.hmap -iquote /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-project-headers.hmap -F/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator -I/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/include -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/DerivedSources/i386 -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/DerivedSources -include /var/folders/Rh/RhayRSOGHMG-PT9Z+wMw0++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MumbaiRailways_Prefix-ambmjtcbiktgzeafvefnfkinmxxe/MumbaiRailways_Prefix.pch -c /Users/vidhya/Documents/MumbaiRailways/main.m -o /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/vidhya/Documents/MumbaiRailways/FirstView.xib
+s321167284.463664
+e321167287.700235
+r1
+xCompileXIB
+x/Users/vidhya/Documents/MumbaiRailways/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib321167284#321167287#0(0"0(0#0#52"/Users/vidhya/Documents/MumbaiRailways/FirstView.xib8617631584#575"    cd /Users/vidhya/Documents/MumbaiRailways    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/FirstView.nib /Users/vidhya/Documents/MumbaiRailways/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/vidhya/Documents/MumbaiRailways/MainWindow.xib
+s321167284.463050
+e321167287.676192
+r1
+xCompileXIB
+x/Users/vidhya/Documents/MumbaiRailways/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321167284#321167287#0(0"0(0#0#53"/Users/vidhya/Documents/MumbaiRailways/MainWindow.xib8618111456#577"    cd /Users/vidhya/Documents/MumbaiRailways    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MainWindow.nib /Users/vidhya/Documents/MumbaiRailways/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/vidhya/Documents/MumbaiRailways/SecondView.xib
+s321167287.676334
+e321167288.086599
+r1
+xCompileXIB
+x/Users/vidhya/Documents/MumbaiRailways/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib321167287#321167288#0(0"0(0#0#53"/Users/vidhya/Documents/MumbaiRailways/SecondView.xib8618125440#577"    cd /Users/vidhya/Documents/MumbaiRailways    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/SecondView.nib /Users/vidhya/Documents/MumbaiRailways/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app.dSYM /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MumbaiRailways
+s321167289.867278
+e321167289.939694
+r1
+xGenerateDSYMFile
+x/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app.dSYM
+x/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MumbaiRailways
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/MumbaiRailways.app.dSYM build/Debug-iphonesimulator/MumbaiRailways.app/MumbaiRailways321167289#321167289#0(0"0(0#0#100"/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MumbaiRailways8617107712#404"    cd /Users/vidhya/Documents/MumbaiRailways    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MumbaiRailways -o /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app.dSYM0#
+
+CLd /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MumbaiRailways normal i386
+s321167289.798679
+e321167289.867174
+r1
+xLd
+x/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MumbaiRailways
+xnormal
+xi386
+lSLF07#2@105"Link /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MumbaiRailways321167289#321167289#0(0"0(0#0#0"8618401088#935"    cd /Users/vidhya/Documents/MumbaiRailways    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator -F/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator -filelist /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/Objects-normal/i386/MumbaiRailways.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/MumbaiRailways0#
+
+CProcessInfoPlistFile /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/Info.plist MumbaiRailways-Info.plist
+s321167284.448680
+e321167284.462978
+r1
+xProcessInfoPlistFile
+x/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/Info.plist
+xMumbaiRailways-Info.plist
+lSLF07#2@33"Process MumbaiRailways-Info.plist321167284#321167284#0(0"0(0#0#64"/Users/vidhya/Documents/MumbaiRailways/MumbaiRailways-Info.plist8618565888#500"    cd /Users/vidhya/Documents/MumbaiRailways    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MumbaiRailways-Info.plist -genpkginfo /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app/Info.plist0#
+
+CProcessPCH /var/folders/Rh/RhayRSOGHMG-PT9Z+wMw0++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MumbaiRailways_Prefix-ambmjtcbiktgzeafvefnfkinmxxe/MumbaiRailways_Prefix.pch.gch MumbaiRailways_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321167288.086731
+e321167289.618397
+r1
+xProcessPCH
+x/var/folders/Rh/RhayRSOGHMG-PT9Z+wMw0++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MumbaiRailways_Prefix-ambmjtcbiktgzeafvefnfkinmxxe/MumbaiRailways_Prefix.pch.gch
+xMumbaiRailways_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile MumbaiRailways_Prefix.pch321167288#321167289#0(0"0(0#0#64"/Users/vidhya/Documents/MumbaiRailways/MumbaiRailways_Prefix.pch8617420480#1939"    cd /Users/vidhya/Documents/MumbaiRailways    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-generated-files.hmap -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-own-target-headers.hmap -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-all-target-headers.hmap -iquote /Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/MumbaiRailways-project-headers.hmap -F/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator -I/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/include -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/DerivedSources/i386 -I/Users/vidhya/Documents/MumbaiRailways/build/MumbaiRailways.build/Debug-iphonesimulator/MumbaiRailways.build/DerivedSources -c /Users/vidhya/Documents/MumbaiRailways/MumbaiRailways_Prefix.pch -o /var/folders/Rh/RhayRSOGHMG-PT9Z+wMw0++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MumbaiRailways_Prefix-ambmjtcbiktgzeafvefnfkinmxxe/MumbaiRailways_Prefix.pch.gch0#
+
+CTouch /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app
+s321167289.939762
+e321167289.983106
+r1
+xTouch
+x/Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app
+lSLF07#2@91"Touch /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app321167289#321167289#0(0"0(0#0#0"8618138944#285"    cd /Users/vidhya/Documents/MumbaiRailways    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/vidhya/Documents/MumbaiRailways/build/Debug-iphonesimulator/MumbaiRailways.app0#
+
