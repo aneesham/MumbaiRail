@@ -60,23 +60,22 @@ static Singleton *dataManager;
 	NSLog(@"method called");
 	
 	NSMutableArray *retval = [[[NSMutableArray alloc] init] autorelease];	
-	//NSString *query=[NSString stringWithFormat:@"SELECT Train.TrainNo, TrainSpeed, Destination, TrainAndStop.Time FROM TrainJOIN TrainAndStopON Train.TrainNo=TrainAndStop.TrainNo AND  TrainAndStop.StopNo = (SELECT Stop.StopNo FROM Stop WHERE Stop.StopName=\"%@\") AND Time Between 7 AND 8",stationName];
-	NSString *query=[NSString stringWithFormat:@"SELECT TrainNo FROM TrainAndStop WHERE StopName=\"%@\"",stationName];
+	NSString *query=[NSString stringWithFormat:@"SELECT Train.TrainNo, TrainSpeed, Destination, TrainAndStop.Time FROM Train JOIN TrainAndStop ON Train.TrainNo=TrainAndStop.TrainNo AND TrainAndStop.StopNo = (SELECT Stop.StopNo FROM Stop WHERE Stop.StopName=\"%@\") AND Time Between 7 AND 8",stationName];
 	sqlite3_stmt *compiledStatement;
     if (sqlite3_prepare_v2(database, [query UTF8String], -1, &compiledStatement, nil) == SQLITE_OK) {
 		
 		while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
 			int TrainNo=sqlite3_column_int(compiledStatement, 0);
 			NSLog(@"train No's are:%d",TrainNo);
-	       // char *TrainSpeed=(char *)sqlite3_column_text(compiledStatement, 1);	
-			//NSString *TS=[[NSString alloc] initWithUTF8String:TrainSpeed];
-			//NSLog(@"%@",TS);
-	        //char *Destination=(char *)sqlite3_column_text(compiledStatement, 0);	
-			//NSString *Desti=[[NSString alloc] initWithUTF8String:Destination];
-			//NSLog(@"%@",Desti);
-			//float Time=sqlite3_column_int(compiledStatement, 3);
-			//NSLog(@"time is %f",Time);
-			//[retval addObject:(NSInteger)TrainNo];
+	        char *TrainSpeed=(char *)sqlite3_column_text(compiledStatement, 1);	
+		    NSString *TS=[[NSString alloc] initWithUTF8String:TrainSpeed];
+			NSLog(@"%@",TS);
+	        char *Destination=(char *)sqlite3_column_text(compiledStatement, 2);	
+			NSString *Desti=[[NSString alloc] initWithUTF8String:Destination];
+			NSLog(@"%@",Desti);
+			double Time=sqlite3_column_double(compiledStatement, 3);
+			NSLog(@"time is %.2f",Time);
+			[retval addObject:Desti];
 		}
         sqlite3_finalize(compiledStatement);
     }
