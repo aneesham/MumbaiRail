@@ -10,7 +10,7 @@
 #import "Singleton.h"
 
 @implementation StationsViewController
-
+@synthesize stationName;
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -41,7 +41,9 @@
 }
 	
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-
+  stationName=[[[Singleton sharedInstance]trainStops] objectAtIndex:indexPath.row];
+	NSLog(@"Station selected : %@",stationName);
+	NSLog(@"data from database is %@",[[Singleton sharedInstance]dataFromDatabase:stationName]);
 	
 }
 

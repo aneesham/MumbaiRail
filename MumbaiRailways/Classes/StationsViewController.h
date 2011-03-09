@@ -11,8 +11,9 @@
 
 @interface StationsViewController : UIViewController {
 	IBOutlet UITableView *tableV;
+	NSString *stationName;
 	
 
 }
-
+@property(nonatomic, retain)NSString *stationName;
 @end

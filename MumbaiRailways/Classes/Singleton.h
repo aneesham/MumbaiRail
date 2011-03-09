@@ -14,4 +14,5 @@
 }
 +(Singleton *)sharedInstance;
 -(NSArray *)trainStops;
+-(NSArray *)dataFromDatabase:(NSString *)stationName;
 @end
