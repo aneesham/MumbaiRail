@@ -8,15 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FinalDisplayViewController : UIViewController {
-	NSArray *finalTrainSpeeds;
-	NSArray *finalTrainDestination;
-	NSArray *finalTrainTime;
+@interface FinalDisplayViewController : UIViewController <UITableViewDelegate, UITableViewDelegate>{
+	NSArray *trainInfos;
+	IBOutlet UITableView *timeTable;
 }
-@property(nonatomic,retain) NSArray *finalTrainSpeeds;
-@property(nonatomic,retain) NSArray *finalTrainDestination;
-@property(nonatomic,retain) NSArray *finalTrainTime;
+@property(nonatomic,retain)NSArray *trainInfos;
 
--(id)initWithTrainSpeed:(NSMutableArray*)TrainSpeed TrainDestination:(NSMutableArray*)TrainDestination TrainTime:(NSMutableArray*)TrainTime  ;
+
 
 @end

@@ -7,12 +7,12 @@
 //
 
 #import "FinalDisplayViewController.h"
-
+#import "Singleton.h"
+#import "TrainInfo.h"
 
 @implementation FinalDisplayViewController
 
-@synthesize finalTrainSpeeds,finalTrainDestination,finalTrainTime;
-
+@synthesize trainInfos;
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -24,12 +24,15 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	//NSString *stationName= @"Borivali";
+	//self.trainInfos = [[Singleton sharedInstance] dataFromDatabase:stationName];
+	//[timeTable reloadData];
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -39,14 +42,26 @@
 }
 */
 
--(id)initWithTrainSpeed:(NSMutableArray*)TrainSpeed TrainDestination:(NSMutableArray*)TrainDestination TrainTime:(NSMutableArray*)TrainTime{
-	self.finalTrainSpeeds = TrainSpeed;
-	self.finalTrainDestination =TrainDestination;
-	self.finalTrainTime = TrainTime;
-	NSLog (@"Train Speeds: %@", finalTrainSpeeds);
-	NSLog (@"Train Time: %@", finalTrainTime);
-	NSLog (@"Train Destinations: %@", finalTrainDestination);
-	return self;
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;	
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	return [trainInfos count];	
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    static NSString *CellIdentifier = @"Cell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+    }
+	TrainInfo *info = [trainInfos objectAtIndex:indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%.2f %@  %@", info.trainTime, info.trainDestination, info.trainSpeed];
+	
+	return cell;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -64,9 +79,6 @@
 
 
 - (void)dealloc {
-	[finalTrainTime release];
-	[finalTrainDestination release];
-	[finalTrainSpeeds release];
     [super dealloc];
 }
 

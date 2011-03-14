@@ -9,12 +9,13 @@
 #import "Singleton.h"
 #import "StationsViewController.h"
 #include "FinalDisplayViewController.h"
+#include "TrainInfo.h"
 
 @implementation Singleton
 
 static Singleton *dataManager;
 
-+(Singleton *)sharedInstance;{
++(Singleton *)sharedInstance{
 	@synchronized(self){	
 		if(dataManager==nil)
 			
@@ -59,31 +60,32 @@ static Singleton *dataManager;
 -(NSArray *)dataFromDatabase:(NSString *)stationName
 {
 	NSLog(@"method called");
-	NSMutableArray *speeds = [[NSMutableArray alloc]init];
-	NSMutableArray *time = [[NSMutableArray alloc]init];
-	NSMutableArray *destination = [[NSMutableArray alloc]init];
+	NSString *stationN = stationName;
+	NSLog(@"The selected Station Name is: %@",stationN);
 	NSMutableArray *retval = [[[NSMutableArray alloc] init] autorelease];	
-	NSString *query=[NSString stringWithFormat:@"SELECT Train.TrainNo, TrainSpeed, Destination, TrainAndStop.Time FROM Train JOIN TrainAndStop ON Train.TrainNo=TrainAndStop.TrainNo AND TrainAndStop.StopNo = (SELECT Stop.StopNo FROM Stop WHERE Stop.StopName=\"%@\") ",stationName];
-	sqlite3_stmt *compiledStatement;
-    if (sqlite3_prepare_v2(database, [query UTF8String], -1, &compiledStatement, nil) == SQLITE_OK) {
-		
-		while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
-			int TrainNo=sqlite3_column_int(compiledStatement, 0);
-			NSLog(@"train No's are:%d",TrainNo);
-            char *TrainSpeed=(char *)sqlite3_column_text(compiledStatement, 1);	
-		    NSString *TS=[[NSString alloc] initWithUTF8String:TrainSpeed];
-		    [speeds addObject:TS];
-	        char *Destination=(char *)sqlite3_column_text(compiledStatement, 2);	
-			NSString *DestinationStr=[[NSString alloc] initWithUTF8String:Destination];
-			[destination addObject:DestinationStr];
-			double Time=sqlite3_column_double(compiledStatement, 3);
-			[time addObject:[NSNumber numberWithFloat:Time]];
+	NSString *query = [NSString stringWithFormat:@"SELECT TrainSpeed, Destination, TrainAndStop.Time FROM Train JOIN TrainAndStop ON Train.TrainNo=TrainAndStop.TrainNo AND TrainAndStop.StopNo = (SELECT Stop.StopNo FROM Stop WHERE Stop.StopName=\"%@\") ",stationName];
+	sqlite3_stmt *statement;
+	
+    if (sqlite3_prepare_v2(database, [query UTF8String], -1, &statement, nil) 
+		== SQLITE_OK) {
+        while (sqlite3_step(statement) == SQLITE_ROW) {
+			char *speedT  = (char*) sqlite3_column_text(statement, 0);
+			char *destinationT = (char *) sqlite3_column_text(statement, 1);
+			float timeT = sqlite3_column_double(statement, 2);
+			
+            NSString *destination = [[NSString alloc] initWithUTF8String:destinationT];
+            NSString *speed = [[NSString alloc] initWithUTF8String:speedT];
+            TrainInfo *info = [[TrainInfo alloc]initWithTime:timeT andTrainDestination:destination andtrainSpeed:speed];
+			NSLog(@"Entered method. Traininfo  line");						                        
+            [retval addObject:info];
+            [destination release];
+            [speed release];
+			[info release];
 		}
+		sqlite3_finalize(statement);
     }
-	FinalDisplayViewController *finalDisplayView = [[FinalDisplayViewController alloc]initWithTrainSpeed:speeds TrainDestination:destination TrainTime:time];
-	[retval addObject:finalDisplayView];
-	[finalDisplayView release];
-	sqlite3_finalize(compiledStatement);
+
+	
 	
     return retval;
 }
